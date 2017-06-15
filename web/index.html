@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Comenzando con la fotografía</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style media="screen">
+    .contenedor{
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      animation: animacion 1s;
+    }
+    header{
+      width: 100%;
+      background: #5b7989;
+      color: white;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+      animation: header 1s;
+    }
+    @-webkit-keyframes animacion{
+      from{
+        margin-top: 150%;
+      }
+      to{
+        margin-top: -5%;
+      }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="contenedor">
+
+      <header>
+
+        <div class="titulo">
+          <h1>Comenzando con la fotografía</h1>
+        </div>
+
+        <nav>
+          <a href="">Inicio</a>
+          <a href="../web/paisajes.html">Paisajes</a>
+          <a href="../web/retratos.html">Retratos</a>
+        </nav>
+
+      </header>
+
+        <div class="central">
+          <div class="cajacentral">
+            <img src="img/paisaje1.jpg" alt="paisaje1">
+          </div>
+        </div>
+
+        <div class="secundaria">
+
+          <div class="cajasecundaria">
+            <img src="img/paisaje2.jpg" alt="paisaje2">
+            <h3>Paisajes</h3>
+          </div>
+          <div class="cajasecundaria">
+            <img src="img/retrato.jpg" alt="retrato">
+            <h3>Retratos</h3>
+          </div>
+
+        </div>
+
+        <footer>
+
+          <div class="pie">
+            <div class="cajapie">
+              <h2>Contacto</h2>
+              <p>deibys6521@gmail.com</p>
+              <p>Cl 7a # 21 - 56</p>
+              <p>(5)5809492</p>
+            </div>
+            <div class="cajapie">
+              <h2>Terminos</h2>
+              <p>Aplica Condiciones y restricciones</p>
+            </div>
+            <div class="cajapie">
+              <h2>Redes Sociales</h2>
+                <div class="social">
+                  <img src="img/facebook.svg" alt="facebook">
+                  <p>/deibysbovea</p>
+                </div>
+                <div class="social">
+                  <img src="img/twitter.svg" alt="twitter">
+                  <p>/deibys.bovea</p>
+                </div>
+                <div class="social">
+                  <img src="img/instagram.svg" alt="instagram">
+                  <p>/deibys.bovea</p>
+                </div>
+            </div>
+            <div class="cajapie">
+              <h2>Derechos</h2>
+              <p>Deibys Bovea © 2017</p>
+            </div>
+          </div>
+
+        </footer>
+    </div>
+
+  </body>
+
+</html>

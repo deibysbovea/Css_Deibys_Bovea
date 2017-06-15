@@ -1,0 +1,137 @@
+body{
+  background: #02010a;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+.contenedor{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header{
+  width: 100%;
+  background: #5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header .titulo{
+  width: 50%;
+}
+header h1{
+  text-shadow: 2px 2px #02010a;
+  text-align: center;
+  font-size: 1.5em;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.galeria{
+  width: 90%;
+  height: auto;
+  padding: 5%;
+  background: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.cajagaleria{
+  width: 220px;
+  height: auto;
+  border: 1px solid black;
+  margin: 20px;
+}
+.cajagaleria img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+img[src*='retrato1']{
+  -webkit-filter: blur(10px);
+}
+img[src*='retrato3']{
+  -webkit-filter: sepia(90%);
+}
+img[src*='retrato2']{
+  -webkit-filter: grayscale(100%);
+}
+img[src*='retrato4']{
+  -webkit-filter: grayscale(100%);
+}
+img[src*='retrato6']{
+  -webkit-filter: grayscale(100%);
+}
+h3{
+  color: black;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background: #C6d5c5;
+  padding: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pie{
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.cajapie{
+  width: 200px;
+  height: 250px;
+  margin: 5px;
+  text-align: center;
+}
+h2{
+  color: black;
+}
+p{
+  color: black;
+}
+img[src$='.svg']{
+  width: 30px;
+}
+.social{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header{
+    width: 100;
+  }
+  header .titulo{
+    width: 100%;
+  }
+  nav{
+    margin: 0 auto;
+  }
+  .cajapie{
+    margin: 1%;
+    height: 98%;
+    padding: auto;
+  }
+}
